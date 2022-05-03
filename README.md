@@ -1,2 +1,2 @@
 # ff15open
-League of Legends Discord Bot
+League of Legends Discord bot made using Python.
