@@ -3,42 +3,23 @@ import os
 import random
 
 import discord
+from RiotAPI import RiotAPI
 from dotenv import load_dotenv
+from discord.ext import commands
 
-from RiotWatcher import LolWatcher, ApiError
-import pandas as pd
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-client = discord.Client()
+bot = commands.Bot(command_prefix='!')
 
-@client.event
-async def on_ready():
-    print(f'{client.user.name} has connected to Discord!')
-
-@client.event
-async def on_member_join(member):
-    await member.create_dm()
-    await member.dm_channel.send(
-        f'Hi {member.name}, welcome to my Discord server!'
-    )
-
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-
-    brooklyn_99_quotes = [
-        'I\'m the human form of the 💯 emoji.',
-        'Bingpot!',
-        (
-            'Cool. Cool cool cool cool cool cool cool, '
-            'no doubt no doubt no doubt no doubt.'
-        ),
-    ]
-
-    if message.content == '99!':
-        response = random.choice(brooklyn_99_quotes)
-        await message.channel.send(response)
-
-client.run(TOKEN)
+@bot.command(name='stats', help='Displays summoner statistics') 
+async def getStats(ctx, summonerName):
+    api = RiotAPI('RGAPI-ac6cc217-9f3c-40be-a01b-a6594ace1fc2')
+    name = api.getSummonerStats(summonerName, 'name')
+    if(name == None):
+        await ctx.send('The name does not exist. Summoner names must exist in NA servers.')
+    else:
+        level = api.getSummonerStats(summonerName, 'summonerLevel')
+        await ctx.send('Summoner Name: ' + name + ' \nSummoner Level: ' + str(level))
+    
+bot.run(TOKEN)

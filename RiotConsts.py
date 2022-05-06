@@ -1,6 +1,6 @@
 URL = {
-    'base': 'https://{proxy}.api.pvp.net/api/lol/{region}/{url}',
-    'summonerByName': 'v{version}/summoner/by-name/{names}'
+    'base': 'https://na1.api.riotgames.com/lol/{url}',
+    'summonerByName': 'summoner/v4/summoners/by-name/{names}'
 }
 
 API_VERSIONS = {
@@ -8,5 +8,5 @@ API_VERSIONS = {
 }
 
 REGIONS = {
-    'north_america': 'NA1'
+    'north_america': 'na1'
 }
