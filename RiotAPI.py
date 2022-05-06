@@ -21,11 +21,31 @@ class RiotAPI(object):
         return self.request(api_url)
     
     # summonerLevel = 147 (int), name = ff15open (string)
-    def getSummonerStats(self, name, stat):
+    def getSummonerID(self, name):
         response = self.getSummonerByName(name)
         try:
-            return response[stat]
+            return response['id']
         except: # response['status']['status_code'] == 404:
             return None
-        
+    # tier = Gold, rank = I, leaguePoints = 51, wins = 56, losses = 50
+    def getSummonerRank(self, name):
+        response = self.getSummonerRankInfo(name)
+        try:
+            return response[0]
+        except:
+            return None
+    
+    # Helper Functions
+    def getSummonerByName(self, name):
+        api_url = consts.URL['summonerByName'].format(
+            names=name
+        )
+        return self.request(api_url)
+    
+    def getSummonerRankInfo(self, name):
+        iden = self.getSummonerID(name)
+        api_url = consts.URL['rankStats'].format(
+            id = iden
+        )
+        return self.request(api_url)
 
