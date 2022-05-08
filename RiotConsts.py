@@ -215,6 +215,8 @@ CHAMP_ID={
 
     '526': 'Rell',
 
+    '888': 'Renata Glasc',
+    
     '58': 'Renekton',
 
     '107': 'Rengar',
@@ -293,6 +295,8 @@ CHAMP_ID={
 
     '161': 'Velkoz',
 
+    '711' : 'Vex',
+
     '254': 'Vi',
 
     '234': 'Viego',
@@ -323,6 +327,8 @@ CHAMP_ID={
 
     '238': 'Zed',
 
+    '221' : 'Zeri',
+
     '115': 'Ziggs',
 
     '26': 'Zilean',
@@ -330,6 +336,7 @@ CHAMP_ID={
     '142': 'Zoe',
 
     '143': 'Zyra'
+    
 }
 API_VERSIONS = {
     'summoner': '4'

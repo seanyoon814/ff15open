@@ -24,12 +24,6 @@ class RiotAPI(object):
         response = requests.get(consts.URL['base2'].format(url=api_url), params=args)
         print(response.url)
         return response.json()
-    def getSummonerByName(self, name):
-        api_url = consts.URL['summonerByName'].format(
-            names=name
-        )
-        return self.request(api_url)
-    
     # summonerLevel = 147 (int), name = ff15open (string)
     def getSummonerID(self, name):
         response = self.getSummonerByName(name)
@@ -47,6 +41,8 @@ class RiotAPI(object):
     # tier = Gold, rank = I, leaguePoints = 51, wins = 56, losses = 50
     def getSummonerRank(self, name):
         response = self.getSummonerRankInfo(name)
+        if(not response):
+            return "Unranked"
         try:
             return response[0]
         except:
@@ -63,6 +59,24 @@ class RiotAPI(object):
             return responseTop5
         except:
             return None
+    def getAllChamps(self, name):
+        response = self.getTopChampsHelper(name)
+        noChestChamps = []
+        for i in response:
+            if(not bool(i['chestGranted'])):
+                champ = str(i['championId'])
+                noChestChamps.append(consts.CHAMP_ID[champ] + ' ❌')
+            else:
+                champ = str(i['championId'])
+                noChestChamps.append(consts.CHAMP_ID[champ] + ' ✅')
+        # Python uses Timsort, which the best case time complexity is O(N)
+        # Best case occurs when array elements are jumbled
+        # Most of the time the best case will occur since it is very unlikely
+        # A users most popular champions are in any particular order
+        noChestChamps.sort()
+        return noChestChamps
+
+
     # O(N^2), maybe improve?
     # def getKDA(self, name):
     #     kda = 0 # [[kills], [deaths], [assists]]
@@ -113,10 +127,24 @@ class RiotAPI(object):
         )
         return self.requestKDA(api_url)
 
-    def formatChamps(self, arr):
+    def formatChampsTop5(self, arr):
         str = ""
         for i in range(0, 10, 2):
             str+= arr[i] + ' (' + arr[i+1] + ' Mastery Points)\n'
         return str
+
+    def formatChamps(self, arr, firstHalf):
+        str = ""
+        size = int(len(arr))
+        if(firstHalf == 0):
+            for i in range(int(size/2)):
+                str+= arr[i] + '\n'
+            return str
+        elif (firstHalf == 1):
+            for i in range(int(size/2), size):
+                str+= arr[i] + '\n'
+        return str
+
+    
 
 
