@@ -20,8 +20,11 @@ There are 4 basic commands the bot can use:
 
 # Technologies Used
 [**Python 3.5**](https://www.python.org/downloads/release/python-350/) was used to code this entire bot.
+
 [**Discord.py**](https://discordpy.readthedocs.io/en/stable/) was an API referenced to help with setting up the basic functionalities of the bot (backend).
+
 [**Riot Games API**](https://developer.riotgames.com/) was an API referenced to help with finding League of Legends statistics that otherwise would not be possible to access.
+
 [**Google Cloud**](https://cloud.google.com/) was used to host the website so I would not have to host it locally on my computer. This is done through a Linux VM instance in the Cloud environment.
 
 # Want to Use This Bot?
