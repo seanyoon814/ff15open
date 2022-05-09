@@ -28,15 +28,25 @@ There are 4 basic commands the bot can use:
 [**Google Cloud**](https://cloud.google.com/) was used to host the website so I would not have to host it locally on my computer. This is done through a Linux VM instance in the Cloud environment.
 
 # Want to Use This Bot?
+
 The setup is pretty straightforward:
+
 **1.** You first must clone or fork this repository
+
 **2.** Install all dependencies using *npm install* or install *python3, discord.py, requests, and dotenv* using **pip3**
-**3.** Create a Discord application using the [**Discord Developer Portal**](https://discord.com/developers/docs/intro) and create a new application. Click on the 'bot' tab and copy the token.
+
+**3.** Create a Discord application using the [**Discord Developer Portal**](https://discord.com/developers/docs/intro) and create a new application. Click on the 
+'bot' tab and copy the token.
+
 **4.** Go to the [**Riot Developer Portal**](https://developer.riotgames.com/) and copy the 24hr API development key.
+
 **5.** Create a **.env file** (environment variable) and paste the following properties into it (same directory as bot.py):
-DISCORD_TOKEN={yourDiscordToken}
-DISCORD_GUILD={yourDiscordServerName}
-RIOT_TOKEN={yourRiotToken}
+
+> DISCORD_TOKEN={yourDiscordToken}
+> DISCORD_GUILD={yourDiscordServerName}
+> RIOT_TOKEN={yourRiotToken}
+
   - Be sure to remove the squiggly brackets.
+  - 
 **6.** You're pretty much done! Just go back to the Discord Developer Portal, go to your bot, OAuth2, and then add it to your server (make sure you give your bot permissions)
 
