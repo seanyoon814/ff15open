@@ -13,7 +13,7 @@ There are 4 basic commands the bot can use:
 ![image](https://user-images.githubusercontent.com/92048016/167331357-73bbf095-67c9-4aad-a6f0-3710a283f5a0.png)
 - **!chest {name}**, which returns which champions the user has gotten a Hextech Chest on for that Season (players know that we have too many keys but too little chests so this tool allows you to play the champions you need!)
 ![image](https://user-images.githubusercontent.com/92048016/167331519-4dda6b2c-681d-4c1f-88f1-2ef0a7729248.png)
-- **!quote**, rather a "fun" mechanic than a useful one; the bot will give you a quote from a random champion from League of Legends for the user to guess
+- **!quote**, where the bot will give you a quote from a random champion from League of Legends for the user to guess
 ![image](https://user-images.githubusercontent.com/92048016/167333393-a2018fbb-bcbf-4a12-8043-fc91f5e90217.png)
 - **!ping**, which returns your ping relative to the bot
 ![image](https://user-images.githubusercontent.com/92048016/167333407-4bd802f9-278d-4c16-806e-af13c6eb82ea.png)
