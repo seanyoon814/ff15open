@@ -19,7 +19,7 @@ There are 4 basic commands the bot can use:
 ![image](https://user-images.githubusercontent.com/92048016/167333407-4bd802f9-278d-4c16-806e-af13c6eb82ea.png)
 
 # Technologies Used
-[**Python 3.5**](https://www.python.org/downloads/release/python-350/) was used to code this entire bot.
+[**Python 3.5**](https://www.python.org/downloads/release/python-350/) was the language used to code this entire bot.
 
 [**Discord.py**](https://discordpy.readthedocs.io/en/stable/) was an API referenced to help with setting up the basic functionalities of the bot (backend).
 
