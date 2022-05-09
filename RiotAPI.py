@@ -1,8 +1,10 @@
+from pickle import TRUE
 from weakref import proxy
 
 from attr import define
 import RiotConsts as consts
 import requests
+import random
 class RiotAPI(object):
     def __init__(self, api_key):
         self.api_key = api_key
@@ -54,7 +56,7 @@ class RiotAPI(object):
             for i in range(5):
                 champ = str(response[i]['championId'])
                 mpt = str(response[i]['championPoints'])
-                responseTop5.append(consts.CHAMP_ID[champ])
+                responseTop5.append(consts.CHAMP_ID[champ][0])
                 responseTop5.append(mpt)
             return responseTop5
         except:
@@ -65,10 +67,10 @@ class RiotAPI(object):
         for i in response:
             if(not bool(i['chestGranted'])):
                 champ = str(i['championId'])
-                noChestChamps.append(consts.CHAMP_ID[champ] + ' ❌')
+                noChestChamps.append(consts.CHAMP_ID[champ][0] + ' ❌')
             else:
                 champ = str(i['championId'])
-                noChestChamps.append(consts.CHAMP_ID[champ] + ' ✅')
+                noChestChamps.append(consts.CHAMP_ID[champ][0] + ' ✅')
         # Python uses Timsort, which the best case time complexity is O(N)
         # Best case occurs when array elements are jumbled
         # Most of the time the best case will occur since it is very unlikely
@@ -76,6 +78,20 @@ class RiotAPI(object):
         noChestChamps.sort()
         return noChestChamps
 
+    def getRandomChampKey(self):
+        lists = list(consts.CHAMP_ID)
+        randoms = random.choice(lists)
+        return randoms
+    
+    def getQuote(self, key):
+        return consts.CHAMP_ID[key][1]
+
+    def checkChamp(self, input, key):
+        if(input == consts.CHAMP_ID[key][0]):
+            return TRUE
+    
+    def getChamp(self, key):
+        return consts.CHAMP_ID[key][0]
 
     # O(N^2), maybe improve?
     # def getKDA(self, name):

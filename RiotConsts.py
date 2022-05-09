@@ -18,324 +18,325 @@ IMAGES ={
     'GRANDMASTER': './Discord/Images/Emblem_Grandmaster.png',
     'CHALLENGER': './Discord/Images/Emblem_Challenger.png'
 }
+
 CHAMP_ID={
-    '266': 'Aatrox',
+    '266': ['Aatrox', 'Now, hear the silence of annihilation!'],
 
-    '103': 'Ahri',
+    '103': ['Ahri', 'Don\'t you trust me?'],
 
-    '84': 'Akali',
+    '84': ['Akali', 'Fear the assassin with no master.'],
 
-    '166': 'Akshan',
+    '166': ['Akshan', 'Fixing the world, one scoundrel at a time!'],
 
-    '12': 'Alistar',
+    '12': ['Alistar', 'Nothing can hold me back!'],
 
-    '32': 'Amumu',
+    '32': ['Amumu', 'I thought you\'d never pick me.'],
 
-    '34': 'Anivia',
+    '34': ['Anivia', 'On my wings.'],
 
-    '1': 'Annie',
+    '1': ['Annie', 'You wanna play too? It\'ll be fun!'],
 
-    '523': 'Aphelios',
+    '523': ['Aphelios', 'So many weapons, (champion name). The deadliest is your faith.'],
 
-    '22': 'Ashe',
+    '22': ['Ashe', 'All the world on one arrow.'],
 
-    '136': 'Aurelion Sol',
+    '136': ['Aurelion Sol', 'Naturally.'],
 
-    '268': 'Azir',
+    '268': ['Azir', 'Shurima! Your emperor has returned!'],
 
-    '432': 'Bard',
+    '432': ['Bard', '[chime noises]'],
 
-    '53': 'Blitzcrank',
+    '53': ['Blitzcrank', 'Fired up and ready to serve.'],
 
-    '63': 'Brand',
+    '63': ['Brand', 'Ready to set the world on fire? Heheheh…'],
 
-    '201': 'Braum',
+    '201': ['Braum', 'The heart is the strongest muscle.'],
 
-    '51': 'Caitlyn',
+    '51': ['Caitlyn', 'I\'m on the case.'],
 
-    '164': 'Camille',
+    '164': ['Camille', 'Precision is the difference between a butcher and a surgeon.'],
 
-    '69': 'Cassiopeia',
+    '69': ['Cassiopeia', 'There is no antidote for me.'],
 
-    '31': 'Chogath',
+    '31': ['Cho\'Gath', 'You\'d wish the world you know to end! Yeeeesssss...'],
 
-    '42': 'Corki',
+    '42': ['Corki', 'I\'m up to snuff, and gots me an ace machine!'],
 
-    '122': 'Darius',
+    '122': ['Darius', 'They will regret opposing me.'],
 
-    '131': 'Diana',
+    '131': ['Diana', 'A new moon is rising.'],
 
-    '119': 'Draven',
+    '119': ['Draven', 'Welcome to the League of (champion name).'],
 
-    '36': 'Dr. Mundo',
+    '36': ['Dr. Mundo', '(champion name)!'],
 
-    '245': 'Ekko',
+    '245': ['Ekko', 'It\'s not how much time you have, it\'s how you use it.'],
 
-    '60': 'Elise',
+    '60': ['Elise', 'Only the spider is safe in her web.'],
 
-    '28': 'Evelynn',
+    '28': ['Evelynn', 'You know you want me.'],
 
-    '81': 'Ezreal',
+    '81': ['Ezreal', 'Quest accepted! …Wait, where are we going?'],
 
-    '9': 'Fiddlesticks',
+    '9': ['Fiddlesticks', 'Fear…'],
 
-    '114': 'Fiora',
+    '114': ['Fiora', 'I long for a worthy opponent.'],
 
-    '105': 'Fizz',
+    '105': ['Fizz', 'Let me at \'em!'],
 
-    '3': 'Galio',
+    '3': ['Galio', 'Time to make an impact!'],
 
-    '41': 'Gangplank',
+    '41': ['Gangplank', 'Neither the flames nor the depths could claim me.'],
 
-    '86': 'Garen',
+    '86': ['Garen', 'My heart and sword always for Demacia.'],
 
-    '150': 'Gnar',
+    '150': ['Gnar', '(champion name) gada!'],
 
-    '79': 'Gragas',
+    '79': ['Gragas', 'If you\'re buying, I\'m in!'],
 
-    '104': 'Graves',
+    '104': ['Graves', 'Dead man walkin\'.'],
 
-    '887': 'Gwen',
+    '887': ['Gwen', 'Head high, chin up, scissors ready!'],
 
-    '120': 'Hecarim',
+    '120': ['Hecarim', 'Behold, the might of the Shadow Isles.'],
 
-    '74': 'Heimerdinger',
+    '74': ['Heimerdinger', 'Indeed, a wise choice.'],
 
-    '420': 'Illaoi',
+    '420': ['Illaoi', 'I\'m not big on sermons - broken bones teach better lessons.'],
 
-    '39': 'Irelia',
+    '39': ['Irelia', 'Fight for the First Lands!'],
 
-    '427': 'Ivern',
+    '427': ['Ivern', 'My favorite color is spring.'],
 
-    '40': 'Janna',
+    '40': ['Janna', 'The tempest is at your command.'],
 
-    '59': 'Jarvan IV',
+    '59': ['Jarvan IV', 'By my will, this shall be finished.'],
 
-    '24': 'Jax',
+    '24': ['Jax', 'Let\'s do this!'],
 
-    '126': 'Jayce',
+    '126': ['Jayce', 'I fight for a brighter tomorrow.'],
 
-    '202': 'Jhin',
+    '202': ['Jhin', 'In carnage, I bloom, like a flower in the dawn.'],
 
-    '222': 'Jinx',
+    '222': ['Jinx', 'Rules are made to be broken... like buildings! Or people!'],
 
-    '145': 'Kaisa',
+    '145': ['Kai\'Sa', 'Are you the hunter... or the prey?'],
 
-    '429': 'Kalista',
+    '429': ['Kalista', 'Death to all betrayers.'],
+ 
+    '43': ['Karma', 'Always trust your spirit.'],
 
-    '43': 'Karma',
+    '30': ['Karthus', 'Agony, ecstasy, peace. Every passing has a beauty all its own.'],
 
-    '30': 'Karthus',
+    '38': ['Kassadin', 'The balance of power must be preserved.'],
 
-    '38': 'Kassadin',
+    '55': ['Katarina', 'Violence solves everything'],
 
-    '55': 'Katarina',
+    '10': ['Kayle', 'They shall tremble at my perfection.'],
 
-    '10': 'Kayle',
+    '141': ['Kayn', 'Will you prove worthy? Probably not.'],
 
-    '141': 'Kayn',
+    '85': ['Kennen', 'The eyes never lie.'],
 
-    '85': 'Kennen',
+    '121': ['Kha\'Zix', 'Change is good.'],
 
-    '121': 'Khazix',
+    '203': ['Kindred', 'Never one… without the other.'],
 
-    '203': 'Kindred',
+    '240': ['Kled', 'I find courage unpredictable, it\'s total insanity you can rely on!'],
 
-    '240': 'Kled',
+    '96': ['Kog\'Maw', 'Time to feast!'],
 
-    '96': 'KogMaw',
+    '7': ['LeBlanc', 'The Black Rose shall bloom once more.'],
 
-    '7': 'LeBlanc',
+    '64': ['Lee Sin', 'Your will, my hands.'],
 
-    '64': 'Lee Sin',
+    '89': ['Leona', 'The dawn has arrived.'],
 
-    '89': 'Leona',
+    '876': ['Lillia', 'Me? A dream come true.'],
 
-    '876': 'Lillia',
+    '127': ['Lissandra', 'I will bury the world in ice.'],
 
-    '127': 'Lissandra',
+    '236': ['Lucian', 'Everybody dies. Some just need a little help.'],
 
-    '236': 'Lucian',
+    '117': ['Lulu', 'Pleased to meet you!'],
 
-    '117': 'Lulu',
+    '99': ['Lux', 'Let\'s light it up!'],
 
-    '99': 'Lux',
+    '54': ['Malphite', 'Rock solid.'],
 
-    '54': 'Malphite',
+    '90': ['Malzahar', 'Oblivion awaits!'],
 
-    '90': 'Malzahar',
+    '57': ['Maokai', 'The Isles will bloom again!'],
 
-    '57': 'Maokai',
+    '11': ['Master Yi', 'My blade is yours.'],
 
-    '11': 'Master Yi',
+    '21': ['Miss Fortune', 'Fortune doesn\'t favour fools.'],
 
-    '21': 'Miss Fortune',
+    '62': ['Wukong', 'I will be the best.'],
 
-    '62': 'Wukong',
+    '82': ['Mordekaiser', 'Destiny. Domination. Deceit.'],
 
-    '82': 'Mordekaiser',
+    '25': ['Morgana', 'I am bound, but I will not break.'],
 
-    '25': 'Morgana',
+    '267': ['Nami', 'I decide what the tide will bring.'],
 
-    '267': 'Nami',
+    '75': ['Nasus', 'The cycle of life and death continues. We will live, they will die.'],
 
-    '75': 'Nasus',
+    '111': ['Nautilus', 'Beware the depths.'],
 
-    '111': 'Nautilus',
+    '518': ['Neeko', '(champion name) is best decision!'],
 
-    '518': 'Neeko',
+    '76': ['Nidalee', 'They will fear the wild.'],
 
-    '76': 'Nidalee',
+    '56': ['Nocturne', 'Embrace the darkness.'],
 
-    '56': 'Nocturne',
+    '20': ['Nunu', 'Every adventure is better with a friend!'],
 
-    '20': 'Nunu',
+    '2': ['Olaf', 'Leave nothing behind!'],
 
-    '2': 'Olaf',
+    '61': ['Orianna', 'We will kill your enemies. That will be fun.'],
 
-    '61': 'Orianna',
+    '516': ['Ornn', 'Fine, we go.'],
 
-    '516': 'Ornn',
+    '80': ['Pantheon', 'In battle, we are reborn.'],
 
-    '80': 'Pantheon',
+    '78': ['Poppy', 'I\'m no hero - just a Yordle with a hammer!'],
 
-    '78': 'Poppy',
+    '555': ['Pyke', 'Sink \'em all.'],
 
-    '555': 'Pyke',
+    '246': ['Qiyana', 'You may now appreciate me.'],
 
-    '246': 'Qiyana',
+    '133': ['Quinn', 'Justice takes wing.'],
 
-    '133': 'Quinn',
+    '497': ['Rakan', 'Let\'s dance.'],
 
-    '497': 'Rakan',
+    '33': ['Rammus', 'Ok.'],
 
-    '33': 'Rammus',
+    '421': ['Rek\'Sai', '[rasp noises]'],
 
-    '421': 'RekSai',
+    '526': ['Rell', 'Nothing gets in, no one gets out.'],
 
-    '526': 'Rell',
-
-    '888': 'Renata Glasc',
+    '888': ['Renata Glasc', 'It\'s Miss Glasc... if you value your life.'],
     
-    '58': 'Renekton',
+    '58': ['Renekton', 'As I live, all will die!'],
 
-    '107': 'Rengar',
+    '107': ['Rengar', 'Tonight, we hunt!'],
 
-    '92': 'Riven',
+    '92': ['Riven', 'What is broken can be reforged.'],
 
-    '68': 'Rumble',
+    '68': ['Rumble', 'Let\'s get in the fight!'],
 
-    '13': 'Ryze',
+    '13': ['Ryze', 'A step ahead of cataclysm.'],
 
-    '360': 'Samira',
+    '360': ['Samira', 'You want style? You\'ve found her.'],
 
-    '113': 'Sejuani',
+    '113': ['Sejuani', 'Trust nothing but your strength.'],
 
-    '235': 'Senna',
+    '235': ['Senna', 'No one fights alone in the Mist.'],
 
-    '147': 'Seraphine',
+    '147': ['Seraphine', 'Let\'s change the world!'],
 
-    '875': 'Sett',
+    '875': ['Sett', 'I\'m undisputed.'],
 
-    '35': 'Shaco',
+    '35': ['Shaco', 'How about a magic trick?'],
 
-    '98': 'Shen',
+    '98': ['Shen', 'A demonstration of superior judgement.'],
 
-    '102': 'Shyvana',
+    '102': ['Shyvana', 'They are nothing before me.'],
 
-    '27': 'Singed',
+    '27': ['Singed', 'How about a drink?'],
 
-    '14': 'Sion',
+    '14': ['Sion', 'Rest is for the living.'],
 
-    '15': 'Sivir',
+    '15': ['Sivir', 'I always take my toll - blood, or gold.'],
 
-    '72': 'Skarner',
+    '72': ['Skarner', 'My stinger brings ugly death.'],
 
-    '37': 'Sona',
+    '37': ['Sona', 'What masterpiece shall we play today?'],
 
-    '16': 'Soraka',
+    '16': ['Soraka', 'Let me guide you.'],
 
-    '50': 'Swain',
+    '50': ['Swain', 'Fear the power you do not see.'],
 
-    '517': 'Sylas',
+    '517': ['Sylas', 'No more cages!'],
 
-    '134': 'Syndra',
+    '134': ['Syndra', 'So much untapped power!'],
 
-    '223': 'Tahm Kench',
+    '223': ['Tahm Kench', 'Call me king, call me demon - water forgets the names of the drowned.'],
 
-    '163': 'Taliyah',
+    '163': ['Taliyah', 'Know the loom. Be the stone.'],
 
-    '91': 'Talon',
+    '91': ['Talon', 'Live and die by the blade.'],
 
-    '44': 'Taric',
+    '44': ['Taric', 'That glimmer of hope you see, that\'s me.'],
 
-    '17': 'Teemo',
+    '17': ['Teemo', 'Captain (champion name) on duty.'],
 
-    '412': 'Thresh',
+    '412': ['Thresh', 'What delightful agony we shall inflict.'],
 
-    '18': 'Tristana',
+    '18': ['Tristana', 'Once a Bandle gunner, always a Bandle gunner!'],
 
-    '48': 'Trundle',
+    '48': ['Trundle', 'Time to troll!'],
 
-    '23': 'Tryndamere',
+    '23': ['Tryndamere', 'This\'ll be a slaughter.'], 
+ 
+    '4': ['Twisted Fate', 'Lady luck is smilin\'.'],
 
-    '4': 'Twisted Fate',
+    '29': ['Twitch', 'What doesn\'t kill you just isn\'t finished yet.'],
 
-    '29': 'Twitch',
+    '77': ['Udyr', 'Our rage is beyond your control!'],
 
-    '77': 'Udyr',
+    '6': ['Urgot', 'You cannot know strength... Until you are broken.'],
 
-    '6': 'Urgot',
+    '110': ['Varus', 'The guilty will know agony'],
 
-    '110': 'Varus',
+    '67': ['Vayne', 'Let us hunt those who have fallen to darkness.'],
 
-    '67': 'Vayne',
+    '45': ['Veigar', 'Know that if the tables were turned, I would show you no mercy!'],
 
-    '45': 'Veigar',
+    '161': ['Vel\'Koz', 'Knowledge through... disintegration.'],
 
-    '161': 'Velkoz',
+    '711' : ['Vex', '\'Kay. See if I care'],
 
-    '711' : 'Vex',
+    '254': ['Vi', 'Punch first. Ask questions while punching.'],
 
-    '254': 'Vi',
+    '234': ['Viego', 'Love ruins all.'],
 
-    '234': 'Viego',
+    '112': ['Viktor', 'Join the glorious evolution.'],
 
-    '112': 'Viktor',
+    '8': ['Vladimir', 'The rivers will run red.'],
 
-    '8': 'Vladimir',
+    '106': ['Volibear', 'Feel the power of the wild.'],
 
-    '106': 'Volibear',
+    '19': ['Warwick', 'Blood runs... they all run.'],
 
-    '19': 'Warwick',
+    '498': ['Xayah', 'I can never resist an invitation to dance.'],
 
-    '498': 'Xayah',
+    '101': ['Xerath', 'I will be free.'],
 
-    '101': 'Xerath',
+    '5': ['Xin Zhao', 'To the arena!'],
 
-    '5': 'Xin Zhao',
+    '157': ['Yasuo', 'Death is like the wind - always by my side.'],
 
-    '157': 'Yasuo',
+    '777': ['Yone', 'One to cut, one to seal.'],
 
-    '777': 'Yone',
+    '83': ['Yorick', 'Fear not... I will make use of your corpse.'],
 
-    '83': 'Yorick',
+    '350': ['Yuumi', 'You and me, we got this!'],
 
-    '350': 'Yuumi',
+    '154': ['Zac', 'I was made for this... literally.'],
+ 
+    '238': ['Zed', 'The unseen blade is the deadliest.'],
 
-    '154': 'Zac',
+    '221' : ['Zeri', 'I am lightning!'],
 
-    '238': 'Zed',
+    '115': ['Ziggs', 'This\'ll be a blast!'],
 
-    '221' : 'Zeri',
+    '26': ['Zilean', 'I knew you would do that...'],
 
-    '115': 'Ziggs',
+    '142': ['Zoe', 'Yes! This\'ll be fun! Right?'],
 
-    '26': 'Zilean',
-
-    '142': 'Zoe',
-
-    '143': 'Zyra'
+    '143': ['Zyra', 'Feel the thorns\' embrace.'],
     
 }
 API_VERSIONS = {
