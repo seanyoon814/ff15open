@@ -43,10 +43,12 @@ The setup is pretty straightforward:
 **5.** Create a **.env file** (environment variable) and paste the following properties into it (same directory as bot.py):
 
 > DISCORD_TOKEN={yourDiscordToken}
+> 
 > DISCORD_GUILD={yourDiscordServerName}
+> 
 > RIOT_TOKEN={yourRiotToken}
 
   - Be sure to remove the squiggly brackets.
-  - 
+ 
 **6.** You're pretty much done! Just go back to the Discord Developer Portal, go to your bot, OAuth2, and then add it to your server (make sure you give your bot permissions)
 
