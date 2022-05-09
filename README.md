@@ -5,6 +5,7 @@ League of Legends Discord bot made using Python, Riot API and Discord API. WIP. 
 Simple bot based on the game League of Legends by Riot Games that can track basic statistics from any account. However, there are some limitations:
 - The account must exist on NA servers (will update this soon)
 - If the account is unranked, you will not get that much information
+
 This bot was created using Python, the Discord API (discord.py), and the Riot API (accessed using requests library). Its main purpose was for me to refresh my memory on Python, as well as create something that anyone who plays League of Legends could use for their benefit. It was a fun learning experience!
 
 # How it Works
