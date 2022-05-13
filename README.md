@@ -19,6 +19,8 @@ There are 4 basic commands the bot can use:
 - **!ping**, which returns your ping relative to the bot
 ![image](https://user-images.githubusercontent.com/92048016/167333407-4bd802f9-278d-4c16-806e-af13c6eb82ea.png)
 
+All of the data retrieved by the Riot Games API is sent as a .JSON file, which is easily parsed using Python (we access it as a dictionary). All we need to do is send a request URL using the Python request library, and have our bot print out the result using the discord.py library. 
+
 # Technologies Used
 [**Python 3.5**](https://www.python.org/downloads/release/python-350/) was the language used to code this entire bot.
 
